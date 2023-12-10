@@ -3,11 +3,11 @@
 #include <ESP8266WiFi.h>
 
 //Replace your wifi credentials here
-const char* ssid     = "Rounak";//Replace with your Wifi Name
-const char* password = "mqwnr84333";// Replace with your wifi Password
+const char* ssid     = "";//Replace with your Wifi Name
+const char* password = "";// Replace with your wifi Password
 
 //change your channel number here
-unsigned long channel = 2365721;//Replace with your own ThingSpeak Account Channle ID
+unsigned long channel = ;//Replace with your own ThingSpeak Account Channle ID
 
 //1,2 and 3 are channel fields. You don't need to change if you are following this tutorial. However, you can modify it according to your application
 unsigned int led1 = 1;
