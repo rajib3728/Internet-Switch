@@ -60,31 +60,22 @@
         <button class="button" style="vertical-align:middle" onclick="fun2()"><span>Switch off</span></button>
         <br>
         <br>
-        <button class="button" style="vertical-align:middle;background-color: rgb(229, 232, 237);"" onclick="fun3()"><span>Close window</span></button>
-        <br>
-        <br>
+        
         <a href="help.html">Instruction before use</a>
     </center>
     <script>
         var a;
         function fun1()
         {
-            
-            a=window.open("https://api.thingspeak.com/update?api_key=X4MXD1DQAHWMZ5OU&field1=1","","width=2px,height=2px");
-            
-          
-            
-            
+        window.close()  
+        window.open("page1.html");  
         }
         function fun2()
         {
-         a=window.open("https://api.thingspeak.com/update?api_key=X4MXD1DQAHWMZ5OU&field1=0","","width=2px,height=2px");
-   
+          window.close();
+         window.open("page2.html");
         }
-        function fun3()
-        {
-            a.close();
-        }
+        
     </script>
 </body>
 </html>
